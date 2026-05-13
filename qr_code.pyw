@@ -1,8 +1,8 @@
 
 from tkinter import messagebox
-import customtkinter as ctk # type: ignore
-import qrcode # type: ignore
-from PIL import Image # type: ignore
+import customtkinter as ctk 
+import qrcode 
+from PIL import Image 
 import os
 import sys
 
@@ -32,7 +32,7 @@ class AppQR(ctk.CTk):
         self.boton_generar = ctk.CTkButton(self, text="Generar y Guardar", command=self.generar_qr)
         self.boton_generar.pack(pady=20)
 
-        self.label_imagen = ctk.CTkLabel(self, text="") # Aquí se mostrará el QR
+        self.label_imagen = ctk.CTkLabel(self, text="") 
         self.label_imagen.pack(pady=10)
 
     def generar_qr(self):
@@ -57,7 +57,7 @@ class AppQR(ctk.CTk):
         img_ctk = ctk.CTkImage(light_image=img_qr, dark_image=img_qr, size=(200, 200))
         
         self.label_imagen.configure(image=img_ctk)
-        self.label_imagen.image = img_ctk # Referencia para que no se borre
+        self.label_imagen.image = img_ctk 
 
         # --- VENTANA EMERGENTE ---
         messagebox.showinfo("¡Logrado!", f"Tu QR ha sido guardado con éxito como:\n{nombre_archivo}")
