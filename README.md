@@ -17,6 +17,6 @@ Este proyecto es una herramienta con interfaz gráfica moderna (GUI) que permite
 
 ![Momento de guardado](guardando_qr.png)
 
-![Resultado](resultado_finalpng)
+![Resultado](resultado_final.png)
 
 
