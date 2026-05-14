@@ -13,10 +13,10 @@ Este proyecto es una herramienta con interfaz gráfica moderna (GUI) que permite
 
 **Manejo de errores:** Sistema de alertas para campos vacíos o errores de escritura.
 
-![Captura de la aplicación](app_en_uso.png)
+![Captura de la aplicación](images/app_en_uso.png)
 
-![Momento de guardado](guardando_qr.png)
+![Momento de guardado](images/guardando_qr.png)
 
-![Resultado](resultado_final.png)
+![Resultado](images/resultado_final.png)
 
 

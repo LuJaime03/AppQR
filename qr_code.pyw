@@ -17,7 +17,7 @@ class AppQR(ctk.CTk):
         self.geometry("400x550")
 
         icon_base = os.path.dirname(__file__)
-        icon_ruta = os.path.join(icon_base, "icono_qr.ico")
+        icon_ruta = os.path.join(icon_base, "images/icono_qr.ico")
         self.iconbitmap(icon_ruta)
 
         self.label_titulo = ctk.CTkLabel(self, text="Generador de QR", font=("Roboto", 24, "bold"))
