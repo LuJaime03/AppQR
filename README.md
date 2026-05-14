@@ -12,3 +12,9 @@ Este proyecto es una herramienta con interfaz gráfica moderna (GUI) que permite
 **Previsualización en tiempo real:** El código QR se muestra en la ventana apenas se genera.
 
 **Manejo de errores:** Sistema de alertas para campos vacíos o errores de escritura.
+
+![Captura de la aplicación](Captura de pantalla 2026-05-13 224540.png)
+![](Captura de pantalla 2026-05-13 224645.png)
+![](Captura de pantalla 2026-05-13 224736.png)
+
+
